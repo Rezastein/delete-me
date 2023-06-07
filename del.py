@@ -5,7 +5,6 @@ import pyautogui
 class cleanAll:
     def tasks():
         os.system('taskkill /f /im explorer.exe')
-        os.system('taskkill /f /im notepad.exe')
         time.sleep(3)
         os.system('start explorer.exe')
     def tmp():
