@@ -16,6 +16,9 @@ class cleanAll:
                 pyautogui.hotkey("ctrlleft", "a")
                 pyautogui.hotkey("delete")
                 pyautogui.press('enter')
+                time.sleep(5)
+                cleanAll.tasks()
+
             except ValueError:
                 pass
     def user_tmp(): 
@@ -27,6 +30,8 @@ class cleanAll:
                 pyautogui.hotkey("ctrlleft", "a")
                 pyautogui.hotkey("delete")
                 pyautogui.press('enter')
+                time.sleep(5)
+                cleanAll.tasks()
             except ValueError:
                 pass
     def prefetch():
@@ -38,6 +43,8 @@ class cleanAll:
                 pyautogui.hotkey("ctrlleft", "a")
                 pyautogui.hotkey("delete")
                 pyautogui.press('enter')
+                time.sleep(5)
+                cleanAll.tasks()
             except ValueError:
                 pass
     def cleanRCB():
@@ -76,6 +83,7 @@ while True:
 
 
             ''')
+            os.system('timeout /t 10 /nobreak')
             exit()
 
 
