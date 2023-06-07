@@ -15,7 +15,7 @@ class cleanAll:
                 pyautogui.hotkey("ctrlleft", "a")
                 pyautogui.hotkey("delete")
                 pyautogui.press('enter')
-                time.sleep(5)
+                time.sleep(10)
                 cleanAll.tasks()
 
             except ValueError:
@@ -29,7 +29,7 @@ class cleanAll:
                 pyautogui.hotkey("ctrlleft", "a")
                 pyautogui.hotkey("delete")
                 pyautogui.press('enter')
-                time.sleep(5)
+                time.sleep(10)
                 cleanAll.tasks()
             except ValueError:
                 pass
@@ -42,7 +42,7 @@ class cleanAll:
                 pyautogui.hotkey("ctrlleft", "a")
                 pyautogui.hotkey("delete")
                 pyautogui.press('enter')
-                time.sleep(5)
+                time.sleep(10)
                 cleanAll.tasks()
             except ValueError:
                 pass
@@ -52,7 +52,7 @@ class cleanAll:
         pyautogui.hotkey("ctrlleft", "a")
         pyautogui.hotkey("delete")
         pyautogui.press('enter')
-        time.sleep(5)
+        time.sleep(10)
         cleanAll.tasks()
 
 while True:
